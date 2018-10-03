@@ -20,7 +20,7 @@ This repository contains solution to coding challenge lane detection for self dr
 
 
 # Dependencies
-Python libraries: opencv, pandas, numpy, matplotlib
+Python libraries: os, opencv, pandas, numpy, moviepy, imageio, matplotlib
 
 
 # Running the Code
