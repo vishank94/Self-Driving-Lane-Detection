@@ -13,10 +13,10 @@ This repository contains solution to coding challenge lane detection for self dr
 
 # Approach
 
-1. Some basic image processing concepts used here are - Color Selection, Region of Interest Selection, Grayscaling, Gaussian Smoothing.
-2. Other concepts used specifically for lane line detection include - Canny Edge Detection and Hough Tranform Line Detection.
+1. Some basic image processing concepts used here are - Color Selection, RoI Selection, Grayscaling, Gaussian Smoothing.
+2. Other concepts used specifically for lane line detection include - Canny Edge Detection, Hough Tranform Line Detection.
 4. The notebook uses all of the above techinques to detect lane lines of different types and colors from a video of the road.
-5. The pipeline used here - basic image processing->edge detection->lane line extrapolation->overlay detection on original image.
+5. The pipeline used here - basic image processing->edge detection and extrapolation->overlay detection on original image.
 
 
 # Dependencies
